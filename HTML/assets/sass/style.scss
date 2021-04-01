@@ -1,0 +1,74 @@
+body {
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+#header {
+    width: 100%;
+    background-color: #FBD1C7;
+    #top {
+        height: 51px;
+        padding: 0px 70px;
+
+        .call-icon span {
+            margin-left: 12px;
+        }
+        .mail-icon {
+            margin-left: 45px;
+        }
+    }
+
+    #header_social {
+        .twitter-icon {
+            margin-right: 45px;
+        }
+        .facebook-icon {
+            margin-right: 44px;
+        }
+        .google-icon {
+            margin-right: 37px;
+        }
+        
+    }
+}
+
+#navbar {
+    width: 100%;
+    height: 132px;
+    background-color: #FB6966;
+    padding: 0 70px;
+
+    #menu {
+        width: 930px;
+        margin-left: 16px;
+
+        ul {
+            padding: 0;
+
+            $child: 4;
+            $right: 25px;
+            @for $i from 1 through $child {
+                li:nth-child(#{$i}) {
+                    margin-right: $right;
+                }
+            }
+
+            a {
+                font-family: 'Segoe UI';
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 27px;
+                color: #fff;
+            }
+        } 
+    }
+
+    #control {
+        right: 0
+    }
+}
