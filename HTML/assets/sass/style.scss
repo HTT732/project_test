@@ -1,3 +1,5 @@
+// @import 'reponsive';
+
 body {
     ul {
         list-style-type: none;
@@ -183,8 +185,8 @@ body {
         }
 
         .card-product {
-            width: 290px;
-            height: 382px;
+            max-width: 290px;
+            height: 100%;
             background: #FFF;
             border: 2px solid rgba(150, 150, 150, 0.25);
             box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
@@ -199,8 +201,11 @@ body {
 
             .card-image {
                 width: 100%;
-                height: 202px;
-                overflow: hidden;
+                height: 202px!important;
+
+                img {
+                    height: 100%;
+                }
                 .favourite {
                     width: 36px;
                     height: 36px;
@@ -261,11 +266,18 @@ body {
                     margin-bottom: 5px;
                 }
 
+               
+            }
+
+            .card-footer {
+                background-color: #fff;
+                border: none;
+                padding-bottom: 0;
                 .price {
                     font-style: normal;
                     font-weight: bold;
                     font-size: 24px;
-                    line-height: 50px;
+                    line-height: 35px;
                     text-align: justify;
                     color: #E0653B;
                     margin-bottom: 0px;
@@ -276,6 +288,7 @@ body {
                     width: 48px;
                     height: 48px;
                     padding-right: 30px;
+                    margin-top: -7px;
 
                     img {
                         margin-left: -1px;
@@ -283,5 +296,30 @@ body {
                 }
             }
         }
+
+        .btn-more {
+            width: 193px;
+            height: 48px;
+            background: rgba(251, 105, 102, 0.8);
+            border: 1px solid #FB6966;
+            box-sizing: border-box;
+            backdrop-filter: blur(20px);
+            border-radius: 46.5px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin: 18px 40px 0 0;
+
+            color: #FFFEFE;
+
+        }
     }
 }
+
+@import 'reponsive';
