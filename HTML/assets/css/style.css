@@ -19,30 +19,173 @@ body a {
     margin-right: 44px; }
   #header #header_social .google-icon {
     margin-right: 37px; }
+  #header #navbar {
+    width: 100%;
+    height: 132px;
+    background-color: #FB6966;
+    padding: 0 70px; }
+    #header #navbar #menu {
+      margin-left: 16px; }
+      #header #navbar #menu ul {
+        padding: 0; }
+        #header #navbar #menu ul li:nth-child(1) {
+          margin-right: 25px; }
+        #header #navbar #menu ul li:nth-child(2) {
+          margin-right: 25px; }
+        #header #navbar #menu ul li:nth-child(3) {
+          margin-right: 25px; }
+        #header #navbar #menu ul li:nth-child(4) {
+          margin-right: 25px; }
+        #header #navbar #menu ul a {
+          font-family: 'Segoe UI';
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 27px;
+          color: #fff; }
+    #header #navbar #control .logout {
+      margin-left: 30px; }
+    #header #navbar #control .cart {
+      position: relative;
+      margin-left: 22px; }
+      #header #navbar #control .cart img {
+        width: 40px;
+        height: 37px; }
+      #header #navbar #control .cart .badge {
+        font-size: 10px;
+        position: absolute;
+        top: -8px;
+        right: -5px; }
+  #header #slider .carousel-indicators button {
+    width: 9px;
+    height: 9px; }
+  #header #slider .carousel-control-prev,
+  #header #slider .carousel-control-next {
+    opacity: 1; }
+    #header #slider .carousel-control-prev span,
+    #header #slider .carousel-control-next span {
+      width: 40px;
+      height: 40px;
+      line-height: 35px; }
+  #header #slider .carousel-item img {
+    width: 100%;
+    height: 635px; }
 
-#navbar {
-  width: 100%;
-  height: 132px;
-  background-color: #FB6966;
+#main-content {
+  background-color: #F6EAF2;
   padding: 0 70px; }
-  #navbar #menu {
-    width: 930px;
-    margin-left: 16px; }
-    #navbar #menu ul {
-      padding: 0; }
-      #navbar #menu ul li:nth-child(1) {
-        margin-right: 25px; }
-      #navbar #menu ul li:nth-child(2) {
-        margin-right: 25px; }
-      #navbar #menu ul li:nth-child(3) {
-        margin-right: 25px; }
-      #navbar #menu ul li:nth-child(4) {
-        margin-right: 25px; }
-      #navbar #menu ul a {
-        font-family: 'Segoe UI';
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 27px;
-        color: #fff; }
-  #navbar #control {
-    right: 0; }
+  #main-content #search {
+    padding-top: 15px; }
+    #main-content #search .input-group {
+      width: 859px;
+      height: 66px;
+      width: 859px;
+      height: 66px; }
+      #main-content #search .input-group input[placeholder] {
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        color: #6B6A69;
+        padding-right: 66px;
+        z-index: 1;
+        border-radius: 46.5px;
+        opacity: 0.75; }
+        #main-content #search .input-group input[placeholder]:focus {
+          box-shadow: none;
+          border-color: #FB6966; }
+      #main-content #search .input-group .input-group-text {
+        width: 66px;
+        height: 66px;
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        background-color: #FB6966; }
+        #main-content #search .input-group .input-group-text img {
+          width: 35px;
+          height: 35px;
+          margin-left: 3px; }
+  #main-content #product {
+    font-family: Segoe UI; }
+    #main-content #product .product-item {
+      padding: 15px 0; }
+    #main-content #product .category-title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 53px;
+      color: #FB6966;
+      margin-bottom: 25px;
+      padding-top: 20px; }
+    #main-content #product .card-product {
+      width: 290px;
+      height: 382px;
+      background: #FFF;
+      border: 2px solid rgba(150, 150, 150, 0.25);
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 38px;
+      overflow: hidden;
+      padding: 10px 10px 15px 15px; }
+      #main-content #product .card-product:hover {
+        border: 2px solid #FB6966;
+        transition: 0.5s all; }
+      #main-content #product .card-product .card-image {
+        width: 100%;
+        height: 202px;
+        overflow: hidden; }
+        #main-content #product .card-product .card-image .favourite {
+          width: 36px;
+          height: 36px;
+          background: #FFF;
+          border: 1px solid #EFEFEF;
+          border-radius: 0;
+          box-sizing: border-box;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          position: absolute;
+          right: 28px;
+          top: 35px; }
+          #main-content #product .card-product .card-image .favourite img {
+            width: 18px;
+            height: 15.5px; }
+          #main-content #product .card-product .card-image .favourite:hover {
+            border-color: #FB6966; }
+            #main-content #product .card-product .card-image .favourite:hover img {
+              background-image: url("..\\image\\icon\\heart2.png");
+              background-size: 100%; }
+      #main-content #product .card-product .card-body {
+        padding: 0 10px; }
+        #main-content #product .card-product .card-body .card-title {
+          padding-top: 15px;
+          margin: 0; }
+          #main-content #product .card-product .card-body .card-title a {
+            color: #FB6966;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 29px; }
+        #main-content #product .card-product .card-body .evaluate a, #main-content #product .card-product .card-body .evaluate img {
+          width: 25px;
+          height: 25px; }
+        #main-content #product .card-product .card-body .description {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 19px;
+          color: #C1BB41;
+          margin-bottom: 5px; }
+        #main-content #product .card-product .card-body .price {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 50px;
+          text-align: justify;
+          color: #E0653B;
+          margin-bottom: 0px; }
+        #main-content #product .card-product .card-body .prod-cart {
+          background: #FB6966;
+          width: 48px;
+          height: 48px;
+          padding-right: 30px; }
+          #main-content #product .card-product .card-body .prod-cart img {
+            margin-left: -1px; }
