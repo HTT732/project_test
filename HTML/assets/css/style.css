@@ -1,3 +1,104 @@
+@media screen and (max-width: 1250px) {
+  .card-title a {
+    font-size: 20px !important; }
+
+  .card-footer .price {
+    font-size: 22px !important; }
+
+  #front-view .read-more {
+    max-width: 32rem !important;
+    max-height: 16rem !important;
+    bottom: 64px !important;
+    right: 140px !important; }
+    #front-view .read-more .card-body {
+      padding: 30px !important; }
+      #front-view .read-more .card-body .card-title {
+        font-size: 27px !important; }
+      #front-view .read-more .card-body .card-text {
+        font-size: 16px !important;
+        line-height: 20px !important; }
+      #front-view .read-more .card-body .btn {
+        font-size: 14px !important;
+        line-height: 19px !important; }
+    #front-view .read-more i {
+      margin-top: -10px !important; } }
+@media screen and (max-width: 1068px) {
+  #main-content #product {
+    padding: 0 40px; }
+    #main-content #product .card-product {
+      max-width: 240px !important; }
+  #main-content #front-view .read-more {
+    max-width: 30rem !important;
+    max-height: 16rem !important;
+    bottom: 64px !important;
+    right: 140px !important; }
+    #main-content #front-view .read-more .card-body {
+      padding: 30px !important; }
+      #main-content #front-view .read-more .card-body .card-title {
+        font-size: 24px !important; }
+      #main-content #front-view .read-more .card-body .card-text {
+        font-size: 16px !important;
+        line-height: 20px !important; }
+      #main-content #front-view .read-more .card-body .btn {
+        font-size: 13px !important;
+        line-height: 16px !important; }
+    #main-content #front-view .read-more i {
+      margin-top: -10px !important; } }
+@media screen and (max-width: 992px) {
+  #main-content #product .row {
+    margin-left: 0; }
+  #main-content #product .card-product {
+    max-width: 280px !important; }
+  #main-content #front-view .read-more {
+    max-width: 28rem !important;
+    max-height: 16rem !important;
+    bottom: 40px !important;
+    right: 100px !important; }
+    #main-content #front-view .read-more .card-body {
+      padding: 25px !important; }
+    #main-content #front-view .read-more i {
+      margin-top: -15px !important; } }
+@media screen and (max-width: 900px) {
+  #main-content #product .card-product {
+    max-width: 260px !important; }
+  #main-content #front-view .read-more {
+    max-width: 33rem !important;
+    max-height: 15rem !important;
+    bottom: 30px !important;
+    right: 100px !important; }
+    #main-content #front-view .read-more .card-body {
+      padding: 20px !important; }
+      #main-content #front-view .read-more .card-body .card-title {
+        font-size: 20px !important; }
+      #main-content #front-view .read-more .card-body .card-text {
+        font-size: 15px !important;
+        line-height: 19px !important; }
+    #main-content #front-view .read-more i {
+      margin-top: -15px !important; } }
+@media screen and (max-width: 768px) {
+  #main-content #product {
+    padding: 0 70px; }
+    #main-content #product .card-product {
+      max-width: 90% !important; } }
+@media screen and (max-width: 667px) {
+  #main-content #product {
+    padding: 0 30px !important; } }
+@media screen and (max-width: 600px) {
+  #main-content #product {
+    padding: 0 20px !important; }
+    #main-content #product .product-item {
+      padding: 5px 0; }
+    #main-content #product .category-title {
+      font-size: 18px;
+      margin: 0;
+      line-height: 0;
+      margin-bottom: 15px; }
+    #main-content #product .card-product {
+      max-width: 95% !important; }
+    #main-content #product .card-title a {
+      font-size: 18px !important; }
+    #main-content #product .card-footer .price {
+      font-size: 18px !important; } }
 body ul {
   list-style-type: none; }
 body a {
@@ -71,10 +172,9 @@ body a {
     height: 635px; }
 
 #main-content {
-  background-color: #F6EAF2;
-  padding: 0 70px; }
+  background-color: #F6EAF2; }
   #main-content #search {
-    padding-top: 15px; }
+    padding: 15px 0 70px 70px; }
     #main-content #search .input-group {
       width: 859px;
       height: 66px;
@@ -107,7 +207,8 @@ body a {
           height: 35px;
           margin-left: 3px; }
   #main-content #product {
-    font-family: Segoe UI; }
+    font-family: Segoe UI;
+    padding: 0 70px; }
     #main-content #product .product-item {
       padding: 15px 0; }
     #main-content #product .category-title {
@@ -212,35 +313,45 @@ body a {
       align-items: center;
       text-align: center;
       justify-content: center;
-      margin: 18px 40px 0 0;
+      margin: 30px 0 30px 0;
       color: #FFFEFE; }
-
-@media screen and (max-width: 1250px) {
-  .card-title a {
-    font-size: 20px !important; }
-
-  .card-footer .price {
-    font-size: 22px !important; } }
-@media screen and (max-width: 1068px) {
-  .card-title a {
-    font-size: 18px !important; }
-
-  .card-footer .price {
-    font-size: 18px !important; }
-
-  #product .product-item {
-    padding: 10px 0 !important; }
-  #product .card-product {
-    max-width: 260px !important;
-    height: 100%; } }
-@media screen and (max-width: 900px) {
-  #main-content {
-    padding: 0 30px; } }
-@media screen and (max-width: 768px) {
-  #main-content {
-    padding: 0 70px; } }
-@media screen and (max-width: 667px) {
-  #main-content {
-    padding: 0 30px !important; } }
+  #main-content #front-view {
+    position: relative;
+    margin: 20px 0; }
+    #main-content #front-view > img {
+      width: 100%; }
+    #main-content #front-view .read-more {
+      max-width: 37rem;
+      max-height: 19rem;
+      background: #6EC907;
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 46.5px;
+      position: absolute;
+      bottom: 83px;
+      right: 230px; }
+      #main-content #front-view .read-more .card-body {
+        padding: 35px;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-style: normal; }
+        #main-content #front-view .read-more .card-body .card-title {
+          font-size: 30px;
+          line-height: 35px;
+          font-weight: bold; }
+        #main-content #front-view .read-more .card-body .card-text {
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: normal;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+        #main-content #front-view .read-more .card-body .btn {
+          background: #FB6966;
+          border-radius: 10px;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          color: #FFFEFE; }
+      #main-content #front-view .read-more i {
+        margin-bottom: -15px; }
 
 /*# sourceMappingURL=style.css.map */
