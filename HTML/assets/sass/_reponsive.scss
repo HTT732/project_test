@@ -81,6 +81,21 @@
             }
         }
     }
+
+    #footer {
+        #footer_content {
+            #more_info {
+                .title {
+                    font-size: 32px!important;
+                }
+    
+                .info {
+                    font-size: 22px;
+                }
+            }
+        }
+        
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -108,6 +123,12 @@
                     margin-top: -15px!important;
                 }
             }
+        }
+    }
+
+    #footer {
+        #more_info {
+            padding-top: 30px!important;
         }
     }
  }
@@ -144,6 +165,10 @@
                 }
             }
         }
+
+        #partner_slider {
+            padding: 0 70px!important;
+        }
      }
  }
 
@@ -153,6 +178,51 @@
             padding:0 70px;
             .card-product {
                 max-width: 90%!important;
+            }
+        }
+    }
+
+    #footer {
+        height: auto;
+        #footer_content {
+            height: auto;
+            #footer_social {
+                line-height: 70px;
+    
+                .youtu {
+                   height: 100%;
+                }
+
+               .ins, .twit, .fb {
+                    width: 30px;
+                    height: 30px;
+                }
+
+            }
+    
+            .hr {
+                height: 2px!important;
+            }
+    
+            #more_info {
+                padding-top: 25px;
+    
+                .title {
+                    font-weight: 900;
+                    font-size: 26px;
+                    line-height: 40px;
+                }
+    
+                .info {
+                    font-size: 20px;
+                    line-height: 22px;
+                }
+    
+                .info-footer {
+                    h4 {
+                        font-size: 22px!important;
+                    }
+                }
             }
         }
     }
@@ -198,6 +268,105 @@
                     font-size: 18px!important;
                 }
             }
+        }
+
+        #partner_slider {
+            padding: 0 50px!important;
+        }
+    }
+
+    #footer {
+        height: auto;
+        #footer_content {
+            padding: 0 10px;
+            height: auto;
+            #footer_social {
+                line-height: 40px!important;
+                padding: 0 10px;
+    
+                .in, .ins, .twit, .fb {
+                    width: 22px!important;
+                    height: 22px!important;
+                }
+
+                .in, .ins, .twit {
+                    margin-left: 10px!important;
+                }
+            }
+    
+            .hr {
+                height: 1px!important;
+                opacity: 1;
+            }
+    
+            #more_info {
+                padding-top: 0;
+                height: 240px;
+    
+                .footer-logo img {
+                    width: 121px;
+                    height: 121px;
+                    opacity: 1;
+                }
+    
+                .title, .info {
+                    font-family: Segoe UI;
+                }
+    
+                .title {
+                    font-weight: 900!important;
+                    font-size: 20px!important;
+                    line-height: 33px!important;
+                    color: #000000!important;
+                }
+    
+                .info {
+                    font-weight: normal!important;
+                    font-size: 13px!important;
+                    line-height: 16px!important;
+                }
+    
+                .info-footer {
+                    padding-top: 30px;
+    
+                    h4 {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 17px!important;
+                        line-height: 24px;
+                        letter-spacing: -0.015em;
+                        color: #000000;
+                    }
+                }
+            }
+    
+            .copyright {
+                font-size: 10px;
+                line-height: 24px;
+            }
+    
+        }
+    }
+   
+ }
+
+ @media screen and (min-width:500px) and (max-width: 600px) {
+    #partner_slider {
+        padding:0 150px!important;
+    }
+ }
+
+ @media screen and (max-width: 450px) {
+    #partner_slider {
+        padding:0 70px!important;
+
+        #btnLeft {
+            margin-left: 25px!important;
+        }
+
+        #btnRight {
+            margin-right: 25px!important;
         }
     }
  }

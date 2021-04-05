@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<title>Market</title>
 	<link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/lib/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/lib/owl-carousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -250,40 +252,150 @@
 
 		<section id="front-view" class="img-fluid">
 			<img src="assets\image\products\front-view.jpg" alt="front view">
-			<div class="card read-more">
+			<i class="d-flex justify-content-center"><img id="close" src="assets\image\products\up.svg"></i>
+			<div id="card" class="card read-more">
 				<div class="card-body">
 					<h5 class="card-title">Asia Market Food</h5>
 					<p class="card-text">Trong những năm qua, xã hội phát triển, kinh tế tăng trưởng đồng thời là chất lượng cuộc sống của người dân ngày càng càng được nâng cao nhiều trung tâm thương mại, nhà cao tầng, biệt thự được mọc ra kèm theo đấy là nhu cầu mua sắm các mặt hàng phục vụ nhu cầu cuộc sống hàng ngày như hoa và quà tặng.</p>
 					<a href="#" class="btn">Xem Thêm</a>
+					
 				</div>
-				<i class="d-flex justify-content-center"><img src="assets\image\products\up.svg"></i>
 			</div>
 		</section>
 
-		<section id="another">
-			
+		<section id="benefit">
+			  <div class="row">
+				<div class="col-sm-4 card-group">
+				  <div id="benefit1" class="card">
+					<div class="row benefit-item align-items-center">
+						<div class="col-3"><img src="assets\image\icon\shipping.svg" ></div>
+						<div class="col-9 content">
+							<h5 class="card-title">Giao hàng miễn phí</h5>
+								<p class="card-text">Miễn phí giao hàng với đơn hàng trên 120€ ship hàng trên 25 nước Châu Âu.</p>
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-4 card-group">
+				  <div id="benefit2" class="card">
+					<div class="row benefit-item align-items-center">
+						<div class="col-3"><img src="assets\image\icon\tick.svg" ></div>
+						<div class="col-9 content">
+							<h5 class="card-title">Sản phẩm có xuất sứ rõ ràng</h5>
+								<p class="card-text">Cam kết hàng Việt Nam 100%, phát hiện hàng giả hàng nhái đền bù 120% giá trị.</p>
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-4 card-group">
+					<div id="benefit3" class="card">
+						<div class="row benefit-item align-items-center">
+							<div class="col-3"><img src="assets\image\icon\save-money.svg" ></div>
+							<div class="col-9 content">
+								<h5 class="card-title">Tiết kiệm chi phí</h5>
+									<p class="card-text">Giá cả rẻ nhất châu âu, phí ship chỉ từ 1,5€/1kg.</p>
+							</div>
+						</div>
+					</div>
+				  </div>
 		</section> <!--another-->
 	</div><!--main-content-->
 
-	<footer id="footer">
-		<section id="partner_slider">
-
+	<footer id="footer" style="background-image: url('assets\\image\\footer.jpg');">
+		<section id="partner_slider" class="position-relative">
+			<a id="btnLeft" class="position-absolute top-50 start-0 translate-middle-y" href="javascript:void(0)">
+				<img src="assets/image/icon/left.svg">
+			</a>
+			<a id="btnRight" href="javascript:void(0)" class="position-absolute top-50 end-0 translate-middle-y">
+				<img src="assets/image/icon/right.svg">
+			</a>
+			<div class="d-flex align-items-center owl-carousel">
+				<div class="">
+					<img src="assets/image/icon/partner1.jpg" alt="">
+				</div>
+				<div>
+					<img src="assets/image/icon/partner2.jpg" alt="">
+				</div>
+				<div>
+					<img src="assets/image/icon/partner3.jpg" alt="">
+				</div>
+				<div>
+					<img src="assets/image/icon/partner1.jpg" alt="">
+				</div>
+				<div>
+					<img src="assets/image/icon/partner2.jpg" alt="">
+				</div>
+			  </div>
 		</section> <!--partner slider-->
 
 		<section id="footer_content">
-			<div id="footer_social">
-
+			<div id="footer_social" class="d-flex justify-content-end">
+				<a href="#">
+					<img class="fb" src="assets\image\icon\fb.svg">
+				</a>
+				<a href="#">
+					<img class="youtu d-none d-md-block" src="assets\image\icon\youtube.svg">
+				</a>
+				<a href="#">
+					<img class="ins" src="assets\image\icon\instagram.svg">
+				</a>
+				<a href="#">
+					<img class="twit" src="assets\image\icon\twitter.svg">
+				</a>
+				<a href="#" class="d-block d-md-none in">
+					<img src="assets\image\icon\in.svg">
+				</a>
 			</div> <!--social-->
-
+			<!-- hr -->
+			<div class="hr"></div>
+			<!-- hr -->
 			<div id="more_info">
-
+				<div class="row">
+					<div class="col-12 col-lg-8">
+						<div class="d-flex align-items-center">
+							<div class="flex-shrink-0 footer-logo">
+							  <img src="assets\image\icon\logo.svg" alt="Logo">
+							</div>
+							<div class="flex-grow-1 ms-3">
+								<p class="title m-0">
+									<span>ASIA MARKET FOOD</span>
+								</p>
+								<p class="info m-0">
+									<span>Địa chỉ: Schütte 11 72458 Albstadt Ebingen</span>
+									<br>
+									<span>Hotline: (+49)01771860737</span>
+									<br>
+									<span>Email: asiamarketfood@gmail.com</span>
+								</p>
+							</div>
+						  </div>
+					</div>
+					<div class="col-12 col-lg-4 row info-footer">
+						<div class="col-6 footer-collapse ps-4 text-center" data-bs-toggle="collapse" href="#customer" aria-expanded="false" aria-controls="customer">
+							<h4>Khách hàng <img src="assets\image\icon\down-footer.svg"></h4>
+						</div>
+						<div class="col-6 footer-collapse text-center" data-bs-toggle="collapse" href="#aboutus" aria-expanded="false" aria-controls="aboutus">
+							<h4>Về chúng tôi <img src="assets\image\icon\down-footer.svg"></h4>
+						</div>
+						<div class="collapse" id="customer">
+							<div class="card card-body">
+								Khách hàng Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem eveniet delectus saepe. Cupiditate optio odio tempore, ipsam debitis corrupti, numquam eveniet qui reiciendis enim incidunt magnam veniam culpa quae libero.
+							</div>
+						</div>
+						<div class="collapse" id="aboutus">
+							<div class="card card-body">
+								About Us Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere dolor veritatis minima neque. Officia ullam, cupiditate quas magnam quidem iste.
+							</div>
+						</div>
+					</div>
+				  </div>
 			</div> <!--more info-->
+			<div class="hr hr-width w-50 mx-auto"></div>
+			<p class="copyright text-center p-0 m-0">&copy; Bản quyền thuộc về ASIAN MARKET FOOD, Inc. 2021. </p>
 		</section>
 	</footer><!--footer-->
-
-	<p>Lorem ipsum dolor sit amet conseim saepe sapiente provident ipsa </p>
-	<p>Lorem ipsum dolor sit amet conseim saepe sapiente provident ipsa </p>
-	<pre>
+	</div>
+<pre>
 
 
 
@@ -314,8 +426,89 @@
 
 
 
-	</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
 </body>
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 <script src="assets\lib\bootstrap\js\bootstrap.min.js"></script>
+<script src="assets/lib/owl-carousel/owl.carousel.min.js"></script>
+<script>
+	$(document).ready(function () {
+		$('#close').click(function () {
+			if ($(this).hasClass('open')) {
+				$('#card').animate({
+					width:590,
+					height:260
+				},
+				'slow','swing',function () {
+					$('#close').css('transform','rotate(180deg)').removeClass('open');
+				})
+			} else {
+				$('#card').animate(
+				{
+					width:310,
+					height:80
+				},
+				'slow','swing',function () {
+					$('#close').css('transform','rotate(180deg)').addClass('open');
+				}
+				)
+			}
+		});
+		
+		var owl = $('.owl-carousel');
+
+		$('#partner_slider #btnLeft').click(function() {
+			owl.trigger('prev.owl.carousel');
+		})
+
+		// Go to the previous item
+		$('#partner_slider #btnRight').click(function() {
+			owl.trigger('next.owl.carousel');
+		})
+
+		owl.owlCarousel({
+			loop:true,
+			margin:10,
+			responsiveClass:true,
+			responsive:{
+				0:{
+					items:1,
+				},
+				600:{
+					items:2,
+				},
+				800:{
+					items:2,
+				},
+				900:{
+					items:3,
+				},
+				1000:{
+					items:4,
+				}
+			}
+		})
+	
+		
+	});
+</script>
 </html>
