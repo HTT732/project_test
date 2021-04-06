@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SVN-Segoe-UI.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
 body {
     ul {
         list-style-type: none;
@@ -13,7 +26,6 @@ body {
     background-color: #FBD1C7;
     #top {
         height: 51px;
-        padding: 0px 70px;
 
         .call-icon span {
             margin-left: 12px;
@@ -37,7 +49,6 @@ body {
     }
 
     #navbar {
-        padding: 0 70px;
         background-color: #FB6966;
 
         .menu-mobi {
@@ -45,6 +56,10 @@ body {
             height: 40px;
             background-image: url("../image/icon/icon-menu.svg");
             background-size: 40px;
+
+            &:focus {
+                box-shadow: none;
+            }
         }
 
         .dropdown-toggle::after {
@@ -222,13 +237,18 @@ body {
     #product {
         font-family: Segoe UI;
 
+        .full-width {
+            width: 100vw;
+            margin-left: -10vw;
+            // left: 50%;
+        }
+
         .topic {
-            padding: 0 70px;
             margin: 0;
         }
 
         .product-item {
-            padding: 15px 0;
+            padding: 10px;
         }
 
         .category-title {
@@ -249,7 +269,7 @@ body {
             box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
             border-radius: 38px;
             overflow: hidden;
-            padding: 10px 10px 15px 15px;
+            padding: 10px;
 
             &:hover {
                 border: 2px solid #FB6966;

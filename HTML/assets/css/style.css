@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Segoe UI';
+  src: url("../fonts/SVN-Segoe-UI.ttf"); }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Medium.ttf"); }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Medium.ttf"); }
 body ul {
   list-style-type: none; }
 body a {
@@ -7,8 +16,7 @@ body a {
   width: 100%;
   background-color: #FBD1C7; }
   #header #top {
-    height: 51px;
-    padding: 0px 70px; }
+    height: 51px; }
     #header #top .call-icon span {
       margin-left: 12px; }
     #header #top .mail-icon {
@@ -20,13 +28,14 @@ body a {
   #header #header_social .google-icon {
     margin-right: 37px; }
   #header #navbar {
-    padding: 0 70px;
     background-color: #FB6966; }
     #header #navbar .menu-mobi {
       width: 40px;
       height: 40px;
       background-image: url("../image/icon/icon-menu.svg");
       background-size: 40px; }
+      #header #navbar .menu-mobi:focus {
+        box-shadow: none; }
     #header #navbar .dropdown-toggle::after {
       display: none; }
     #header #navbar .cart {
@@ -125,11 +134,13 @@ body a {
         margin-left: 3px; }
   #main-content #product {
     font-family: Segoe UI; }
+    #main-content #product .full-width {
+      width: 100vw;
+      margin-left: -10vw; }
     #main-content #product .topic {
-      padding: 0 70px;
       margin: 0; }
     #main-content #product .product-item {
-      padding: 15px 0; }
+      padding: 10px; }
     #main-content #product .category-title {
       font-style: normal;
       font-weight: bold;
@@ -146,7 +157,7 @@ body a {
       box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
       border-radius: 38px;
       overflow: hidden;
-      padding: 10px 10px 15px 15px; }
+      padding: 10px; }
       #main-content #product .card-product:hover {
         border: 2px solid #FB6966;
         transition: 0.5s all; }
@@ -418,87 +429,24 @@ body a {
       letter-spacing: -0.015em;
       color: rgba(0, 0, 0, 0.8); }
 
-@media screen and (min-width: 993px) and (max-width: 1100px) {
+@media screen and (max-width: 1366px) {
   #header #navbar #menu .nav-item .is-menu {
-    font-size: 15px; } }
-@media screen and (max-width: 1250px) {
-  #navbar {
-    padding: 0 15px !important; }
-    #navbar .is-menu {
-      font-size: 18px; }
-    #navbar .languge-icon .vi-icon {
-      width: 30px !important; }
-    #navbar .languge-icon .drop-down-icon {
-      width: 20px; }
-    #navbar .cart img {
-      height: 28px !important; }
-    #navbar .logout img {
-      width: 25px !important; }
-
-  .card-title a {
-    font-size: 20px !important; }
-
-  .card-footer .price {
-    font-size: 22px !important; }
-
-  #front-view .read-more {
-    max-width: 32rem !important;
-    max-height: 16rem !important;
-    bottom: 64px !important;
-    right: 140px !important; }
-    #front-view .read-more .card-body {
-      padding: 30px !important; }
-      #front-view .read-more .card-body .card-title {
-        font-size: 27px !important; }
-      #front-view .read-more .card-body .card-text {
-        font-size: 16px !important;
-        line-height: 20px !important; }
-      #front-view .read-more .card-body .btn {
-        font-size: 14px !important;
-        line-height: 19px !important; }
-    #front-view .read-more i {
-      margin-top: -10px !important; }
-
-  #benefit .benefit-item img {
-    width: 60px !important; }
-  #benefit .benefit-item .card-title {
-    font-size: 22px !important; } }
-@media screen and (max-width: 1068px) {
-  #main-content #product .topic {
-    padding: 0 40px; }
-  #main-content #product .card-product {
-    max-width: 240px !important; }
-  #main-content #front-view .read-more {
-    max-width: 30rem !important;
-    max-height: 16rem !important;
-    bottom: 64px !important;
-    right: 140px !important; }
-    #main-content #front-view .read-more .card-body {
-      padding: 30px !important; }
-      #main-content #front-view .read-more .card-body .card-title {
-        font-size: 24px !important; }
-      #main-content #front-view .read-more .card-body .card-text {
-        font-size: 16px !important;
-        line-height: 20px !important; }
-      #main-content #front-view .read-more .card-body .btn {
-        font-size: 13px !important;
-        line-height: 16px !important; }
-    #main-content #front-view .read-more i {
-      margin-top: -10px !important; }
-  #main-content #benefit {
-    padding: 30px 40px; }
-    #main-content #benefit .card-group {
-      padding: 0 5px; }
-    #main-content #benefit .benefit-item img {
-      width: 50px !important; }
-    #main-content #benefit .benefit-item .card-text {
-      font-size: 16px; }
-
-  #footer #footer_content #more_info .title {
-    font-size: 32px !important; }
-  #footer #footer_content #more_info .info {
-    font-size: 22px; } }
-@media screen and (max-width: 992px) {
+    font-size: 16px; } }
+@media screen and (max-width: 1200px) {
+  #header #navbar #menu .nav-item .is-menu {
+    font-size: 16px; }
+  #header #navbar .languge-icon .vi-icon {
+    width: 30px; }
+  #header #navbar .languge-icon .drop-down-icon {
+    width: 18px; }
+  #header #navbar .cart img {
+    width: 30px; }
+  #header #navbar .logout img {
+    width: 25px; } }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #main-content #product .card-product .card-image {
+    height: 140px; } }
+@media screen and (max-width: 1070px) {
   #header #top .call-icon span {
     margin-left: 0; }
   #header #top .mail-icon {
@@ -509,17 +457,8 @@ body a {
     margin-right: 30px; }
   #header #header_social .google-icon {
     margin-right: 30px; }
-  #header #navbar .icon-menu {
-    width: 32px;
-    height: 32px; }
-  #header #navbar .cart img {
-    height: 32px !important; }
-  #header #navbar .cart span {
-    width: 22px;
-    left: 68% !important;
-    top: 0 !important;
-    padding: 0.2rem;
-    background-color: #FEC24E; }
+  #header #navbar #menu .nav-item .is-menu {
+    font-size: 14px; }
   #header #navbar .navbar-nav .dropdown-menu {
     left: 0;
     position: absolute;
@@ -529,240 +468,86 @@ body a {
     #header #navbar .navbar-nav .dropdown-menu span {
       font-size: 14px; }
 
-  #main-content #product .row {
-    margin: auto 0; }
-  #main-content #product .card-product {
-    max-width: 280px !important; }
-  #main-content #front-view .read-more {
-    max-width: 28rem !important;
-    max-height: 16rem !important;
-    bottom: 40px !important;
-    right: 100px !important; }
-    #main-content #front-view .read-more .card-body {
-      padding: 25px !important; }
-    #main-content #front-view .read-more i {
-      margin-top: -15px !important; }
-  #main-content #benefit .card-group {
-    margin: 10px auto; }
-  #main-content #benefit .benefit-item {
-    padding: 10px;
-    min-height: 100px; }
-    #main-content #benefit .benefit-item img {
-      width: 70px; }
-    #main-content #benefit .benefit-item .card-title {
-      font-size: 24px; }
-    #main-content #benefit .benefit-item .card-text {
-      font-size: 18px; }
-    #main-content #benefit .benefit-item .content {
-      padding-left: 15px; }
-
-  #footer #more_info {
-    padding-top: 30px !important; } }
-@media screen and (max-width: 900px) {
+  #main-content #product .card-product, #main-content #product .card-image {
+    border-radius: 20px !important; }
   #main-content #search .input-group {
-    margin: 17px 0;
-    height: 40px; }
-    #main-content #search .input-group input[placeholder] {
-      font-size: 16px; }
+    height: 50px; }
     #main-content #search .input-group .input-group-text {
-      width: 43px;
-      height: 40px; }
+      width: 50px;
+      height: 50px; }
       #main-content #search .input-group .input-group-text img {
-        width: 35px;
-        height: 26px;
-        margin-left: -8px; }
-  #main-content #product .card-product {
-    max-width: 260px !important; }
-    #main-content #product .card-product .card-image {
-      height: 166px; }
-    #main-content #product .card-product .card-title {
-      padding-top: 5px !important; }
-    #main-content #product .card-product .card-body .evaluate img {
-      width: 20px;
-      height: 20px; }
-    #main-content #product .card-product .card-footer .price {
-      font-size: 20px !important; }
-  #main-content #front-view .read-more {
-    max-width: 33rem !important;
-    max-height: 15rem !important;
-    bottom: 30px !important;
-    right: 100px !important; }
-    #main-content #front-view .read-more .card-body {
-      padding: 20px !important; }
-      #main-content #front-view .read-more .card-body .card-title {
-        font-size: 20px !important; }
-      #main-content #front-view .read-more .card-body .card-text {
-        font-size: 15px !important;
-        line-height: 19px !important; }
-    #main-content #front-view .read-more i {
-      margin-top: -15px !important; }
-  #main-content #partner_slider {
-    padding: 0 70px !important; } }
+        width: 30px;
+        height: 30px;
+        margin-left: -3px; }
+    #main-content #search .input-group input[placeholder] {
+      font-size: 18px; } }
 @media screen and (max-width: 768px) {
-  #navbar #menu-content-mobi {
-    width: 40%; }
-  #navbar .logo {
-    margin-right: -6rem; }
+  #header #navbar .logo img {
+    width: 70px;
+    height: 51px;
+    margin-right: -3rem; }
 
-  #main-content #benefit .benefit-item img {
-    width: 70px !important; }
-  #main-content #benefit .benefit-item .card-text {
-    font-size: 18px; }
-
-  #footer {
-    height: auto; }
-    #footer #footer_content {
-      height: auto; }
-      #footer #footer_content #footer_social {
-        line-height: 70px; }
-        #footer #footer_content #footer_social .youtu {
-          height: 100%; }
-        #footer #footer_content #footer_social .ins, #footer #footer_content #footer_social .twit, #footer #footer_content #footer_social .fb {
-          width: 30px;
-          height: 30px; }
-      #footer #footer_content .hr {
-        height: 2px !important; }
-      #footer #footer_content #more_info {
-        padding-top: 25px; }
-        #footer #footer_content #more_info .title {
-          font-weight: 900;
-          font-size: 26px;
-          line-height: 40px; }
-        #footer #footer_content #more_info .info {
-          font-size: 20px;
-          line-height: 22px; }
-        #footer #footer_content #more_info .info-footer h4 {
-          font-size: 22px !important; } }
-@media screen and (max-width: 667px) {
-  #main-content #product .topic {
-    padding: 0 30px !important; }
-
-  #benefit {
-    padding: 0 20px !important; }
-    #benefit .card-group {
-      margin: 10px 5px; }
-    #benefit .benefit-item img {
-      width: 68px; }
-    #benefit .benefit-item .card-title {
+  #main-content #product .category-title {
+    font-size: 30px;
+    line-height: 24px; }
+  #main-content #product .card-title {
+    padding-top: 10px !important; }
+    #main-content #product .card-title a {
       font-size: 18px !important;
-      font-weight: 600 !important;
       line-height: 24px !important; }
-    #benefit .benefit-item .card-text {
-      font-size: 13px !important;
-      line-height: 17px !important; } }
-@media screen and (max-width: 600px) {
-  #main-content #product .topic {
-    padding: 0 20px; }
-  #main-content #product .product-item {
-    padding: 5px 0; }
+  #main-content #product .card-body .evaluate a, #main-content #product .card-body .evaluate img {
+    width: 21px !important;
+    height: 21px !important; }
+  #main-content #product .card-footer .prod-cart {
+    width: 35px !important;
+    height: 35px !important;
+    padding-right: 25px !important;
+    margin-top: 0 !important; }
+    #main-content #product .card-footer .prod-cart img {
+      margin-left: -6px !important;
+      margin-top: -8px; } }
+@media screen and (min-width: 768px) and (max-width: 850px) {
+  #main-content #product .card-product .card-image {
+    height: 160px; } }
+@media screen and (max-width: 576px) {
+  #header #navbar #menu-content-mobi {
+    width: 75%; }
+
   #main-content #product .category-title {
     font-size: 18px;
     line-height: 24px; }
-  #main-content #product .card-title a {
-    font-size: 18px !important; }
-  #main-content #product .card-product .card-footer .price {
-    font-size: 18px !important; }
-  #main-content #product .btn-more {
-    font-size: 14px;
-    width: 112px;
-    height: 36px;
-    margin: 15px 0; }
-  #main-content #partner_slider {
-    padding: 0 50px !important; }
+  #main-content #product .product-item {
+    padding: 5px; }
+    #main-content #product .product-item .card-image {
+      height: 170px; }
 
-  #footer {
-    height: auto; }
-    #footer #footer_content {
-      padding: 0 10px;
-      height: auto; }
-      #footer #footer_content #footer_social {
-        line-height: 40px !important;
-        padding: 0 10px; }
-        #footer #footer_content #footer_social .in, #footer #footer_content #footer_social .ins, #footer #footer_content #footer_social .twit, #footer #footer_content #footer_social .fb {
-          width: 22px !important;
-          height: 22px !important; }
-        #footer #footer_content #footer_social .in, #footer #footer_content #footer_social .ins, #footer #footer_content #footer_social .twit {
-          margin-left: 10px !important; }
-      #footer #footer_content .hr {
-        height: 1px !important;
-        opacity: 1; }
-      #footer #footer_content #more_info {
-        padding-top: 0;
-        height: 240px; }
-        #footer #footer_content #more_info .footer-logo img {
-          width: 121px;
-          height: 121px;
-          opacity: 1; }
-        #footer #footer_content #more_info .title, #footer #footer_content #more_info .info {
-          font-family: Segoe UI; }
-        #footer #footer_content #more_info .title {
-          font-weight: 900 !important;
-          font-size: 20px !important;
-          line-height: 33px !important;
-          color: #000000 !important; }
-        #footer #footer_content #more_info .info {
-          font-weight: normal !important;
-          font-size: 13px !important;
-          line-height: 16px !important; }
-        #footer #footer_content #more_info .info-footer {
-          padding-top: 30px; }
-          #footer #footer_content #more_info .info-footer h4 {
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 17px !important;
-            line-height: 24px;
-            letter-spacing: -0.015em;
-            color: #000000; }
-      #footer #footer_content .copyright {
-        font-size: 10px;
-        line-height: 24px; } }
-@media screen and (min-width: 500px) and (max-width: 600px) {
-  #navbar #menu-content-mobi {
-    width: 60%; }
-  #navbar .logo {
-    margin-right: -2rem; }
-
-  #partner_slider {
-    padding: 0 150px !important; }
-
-  #benefit {
-    padding: 0 70px !important; } }
-@media screen and (max-width: 450px) {
-  #header #navbar #menu-content-mobi {
-    width: 75%; }
-  #header #navbar .logo {
-    margin-right: 0; }
-    #header #navbar .logo img {
-      width: 73px;
-      height: auto; }
-
-  #main-content #product .topic {
-    padding: 0 10px !important; }
-  #main-content #product .card-product {
-    padding: 6px; }
-    #main-content #product .card-product .card-image {
-      height: 120px; }
-    #main-content #product .card-product .card-body {
-      padding: 0 6px; }
-    #main-content #product .card-product .card-footer .prod-cart {
-      width: 28px;
-      height: 28px;
-      padding: 0;
-      margin: 0; }
-      #main-content #product .card-product .card-footer .prod-cart img {
-        width: 21px;
-        height: 21px;
-        margin-top: -2px; }
-
-  #partner_slider {
-    padding: 0 70px !important; }
-    #partner_slider #btnLeft {
-      margin-left: 25px !important; }
-    #partner_slider #btnRight {
-      margin-right: 25px !important; }
-
-  #benefit .card-group {
-    margin: auto !important; } }
-
-/*# sourceMappingURL=style.css.map */
+  #main-content #search .input-group {
+    margin-bottom: 0;
+    height: 40px; }
+    #main-content #search .input-group .input-group-text {
+      width: 40px;
+      height: 40px; }
+      #main-content #search .input-group .input-group-text img {
+        width: 25px;
+        height: 25px;
+        margin-left: -5px; }
+    #main-content #search .input-group input[placeholder] {
+      font-size: 12px; } }
+@media screen and (max-width: 420px) {
+  #main-content #product .product-item {
+    padding: 4px; }
+    #main-content #product .product-item .card-product {
+      padding: 7px; }
+      #main-content #product .product-item .card-product .card-image {
+        height: 125px; }
+      #main-content #product .product-item .card-product .card-title {
+        padding-top: 5px !important; }
+      #main-content #product .product-item .card-product .card-footer .price {
+        font-size: 20px; } }
+@media screen and (max-width: 330px) {
+  #main-content #product .product-item {
+    padding: 2px; }
+    #main-content #product .product-item .card-product {
+      padding: 5px; }
+      #main-content #product .product-item .card-product .card-image {
+        height: 100px; } }
