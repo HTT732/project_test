@@ -3,7 +3,33 @@
         #menu .nav-item .is-menu {
             font-size: 16px;
         }
-    }           
+    }
+    
+    #main-content {
+        #benefit {
+            .benefit-item {
+                img {
+                    width: 60px;
+                }
+    
+                .card-title {
+                    font-size: 20px;
+                }
+    
+                .card-text {
+                    font-size: 15px;
+                }
+
+                .content {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+
+    #footer #footer_content #more_info {
+        height: 340px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -105,6 +131,13 @@
                 font-size: 18px;
             }
         }
+        #benefit {
+            .benefit-item {
+                img {
+                    width: 50px;
+                }
+            }
+        }
     }
 }
 
@@ -142,6 +175,66 @@
             img {
                 margin-left: -6px!important;
                 margin-top: -8px;
+            }
+        }
+    }
+
+    #main-content #benefit {
+        .benefit-item {
+            img {
+                width: 60px;
+            }
+        }
+    }
+
+    #footer {
+        #footer_content {
+            height: auto;
+            .copyright {
+                font-size: 12px;
+                line-height: 30px;
+            }
+            #footer_social {
+                line-height: 70px;
+
+                .ins, .twit, .fb {
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+
+            .hr {
+                height: 2px!important;
+            }
+
+            .hr-width {
+                margin-top: 50px;
+            }
+
+            #more_info {
+                height: auto;
+                .footer-logo img {
+                    width: 121px;
+                    height: 121px;
+                }
+                padding-top: 25px;
+
+                .title {
+                    font-weight: 900;
+                    font-size: 20px;
+                    line-height: 53px;
+                }
+
+                .info {
+                    font-size: 12px;
+                    line-height: 22px;
+                }
+
+                .info-footer {
+                    h4 {
+                        font-size: 16px;
+                    }
+                }
             }
         }
     }
@@ -189,6 +282,11 @@
             font-size: 12px;
         }
     }
+
+    #footer #partner_slider {
+        width: 70%;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -212,6 +310,63 @@
             }
         }
     }
+
+    #main-content {
+        #benefit {
+
+            .card {
+                margin-bottom: 0;
+            }
+    
+            .benefit-item {
+                .card-title {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+    
+                .card-text {
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+
+    #footer {
+        height: auto;
+        #partner_slider {
+            height: 90px;
+        }
+
+        #footer_content {
+            height: auto;
+            .copyright {
+                font-size: 10px;
+            }
+
+            #more_info {
+                .title {
+                    font-size: 20px!important;
+                    line-height: 40px;
+                }
+
+                .info {
+                    line-height: 18px;
+                }
+
+                .info-footer {
+                    h4 {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 330px) {
@@ -227,675 +382,4 @@
             }
         }
     }
-    
-    
 }
-// @media screen and (min-width:993px) and (max-width: 1100px) {
-//     #header #navbar #menu .nav-item .is-menu {
-//         font-size: 15px;
-//     }   
-// }
-
-// @media screen and (max-width:1250px) {
-//     #navbar {
-//         .is-menu {
-//             font-size: 18px;
-//         }
-
-//         .languge-icon {
-//             .vi-icon {
-//                 width: 30px!important;
-//             }
-
-//             .drop-down-icon {
-
-//                 width: 20px;
-//             }
-//         }
-
-//         .cart img {
-//             height: 28px!important;
-//         }
-
-//         .logout img {
-//             width: 25px!important;
-//         }
-//     }
-
-//     .card-title {
-//         a {
-//             font-size: 20px!important;
-//         }
-//     }
-
-//     .card-footer {
-//         .price {
-//             font-size: 22px!important;
-//         }
-//     }
-    
-//     #front-view {
-//         .read-more {
-//             max-width: 32rem!important;
-//             max-height: 16rem!important;
-//             bottom: 64px!important;
-//             right: 140px!important;
-//             .card-body {
-//                 padding: 30px!important;
-//                 .card-title {
-//                     font-size: 27px!important;
-//                 }
-    
-//                 .card-text {
-//                     font-size: 16px!important;
-//                     line-height: 20px!important;
-//                 }
-
-//                 .btn {
-//                     font-size: 14px!important;
-//                     line-height: 19px!important;
-//                 }
-//             }
-
-//             i {
-//                 margin-top: -10px!important;
-//             }
-//         }
-//     }
-
-//     #benefit {  
-//         .benefit-item {
-//             img {
-//                 width: 60px!important;
-//             }
-
-//             .card-title {
-//                 font-size: 22px!important;
-//             }
-//         }  
-//     }
-// }
-
-// @media screen and (max-width:1068px) {
-//     #main-content {
-//         #product {
-//             .topic {
-//                 padding:0 40px;
-//             }
-
-//             .card-product {
-//                 max-width: 240px!important;
-//             }
-//         }
-
-//         #front-view {
-//             .read-more {
-//                 max-width: 30rem!important;
-//                 max-height: 16rem!important;
-//                 bottom: 64px!important;
-//                 right: 140px!important;
-//                 .card-body {
-//                     padding: 30px!important;
-//                     .card-title {
-//                         font-size: 24px!important;
-//                     }
-        
-//                     .card-text {
-//                         font-size: 16px!important;
-//                         line-height: 20px!important;
-//                     }
-    
-//                     .btn {
-//                         font-size: 13px!important;
-//                         line-height: 16px!important;
-//                     }
-//                 }
-    
-//                 i {
-//                     margin-top: -10px!important;
-//                 }
-//             }
-//         }
-
-//         #benefit { 
-//             padding: 30px 40px;
-//             .card-group {
-//                 padding: 0 5px;
-//             }
-//             .benefit-item {
-//                 img {
-//                     width: 50px!important;
-//                 }
-
-//                 .card-text {
-//                     font-size: 16px;
-//                 }
-//             }  
-//         }
-//     }
-
-//     #footer {
-//         #footer_content {
-//             #more_info {
-//                 .title {
-//                     font-size: 32px!important;
-//                 }
-    
-//                 .info {
-//                     font-size: 22px;
-//                 }
-//             }
-//         }
-        
-//     }
-// }
-
-// @media screen and (max-width: 992px) {
-//     #header {
-//         #top {
-//             .call-icon span {
-//                 margin-left: 0;
-//             }
-//             .mail-icon {
-//                 margin-left: 20px;
-//             }
-//         }
-    
-//         #header_social {
-//             .twitter-icon {
-//                 margin-right: 30px;
-//             }
-//             .facebook-icon {
-//                 margin-right: 30px;
-//             }
-//             .google-icon {
-//                 margin-right: 30px;
-//             }
-            
-//         }
-
-//         #navbar {
-//             .icon-menu {
-//                 width: 32px;
-//                 height: 32px;
-//             }
-    
-//             .cart img {
-//                 height: 32px!important;
-//             }
-
-//             .cart span {
-//                 width: 22px;
-//                 left: 68%!important;
-//                 top: 0!important;
-//                 padding: 0.2rem;
-//                 background-color: #FEC24E;
-//             }
-
-//             .navbar-nav .dropdown-menu {
-//                 left: 0;
-//                 position: absolute;
-//                 min-width: 8rem;
-
-//                 a img {
-//                     width: 20px;
-//                 }
-
-//                 span {
-//                     font-size: 14px;
-//                 }
-//             }
-//         }
-//     }
-
-//     #main-content {
-//         #product {
-//             .row {
-//                 margin: auto 0;;
-//             }
-//             .card-product {
-//                 max-width: 280px!important;
-//             }
-//         }
-
-//         #front-view {
-//             .read-more {
-//                 max-width: 28rem!important;
-//                 max-height: 16rem!important;
-//                 bottom: 40px!important;
-//                 right: 100px!important;
-//                 .card-body {
-//                     padding: 25px!important;
-//                 }
-
-//                 i {
-//                     margin-top: -15px!important;
-//                 }
-//             }
-//         }
-
-//         #benefit {
-//             .card-group {
-//                 margin: 10px auto;
-//             }
-
-//             .benefit-item {
-//                 padding: 10px;
-//                 min-height: 100px;
-    
-//                 img {
-//                     width: 70px;
-//                 }
-    
-//                 .card-title {
-//                     font-size: 24px;
-//                 }
-    
-//                 .card-text {
-//                     font-size: 18px;
-//                 }
-
-//                 .content {
-//                     padding-left: 15px;
-//                 }
-//             }
-//         }
-//     }
-
-//     #footer {
-//         #more_info {
-//             padding-top: 30px!important;
-//         }
-//     }
-//  }
-
- 
-// @media screen and (max-width: 900px) {
-//     #main-content {
-//         #search {
-//             @mixin width-height($w, $h) {
-//                 width: $w;
-//                 height: $h;
-//             }
-//             .input-group {
-//                 margin: 17px 0;
-//                 height: 40px;
-    
-//                 input[placeholder] {
-//                     font-size: 16px;
-//                 }
-    
-//                 .input-group-text {
-//                     @include width-height(43px, 40px);
-    
-//                     img {
-//                         @include width-height(35px, 26px);
-//                         margin-left: -8px; 
-//                     }
-//                 }
-//             }
-//         }
-
-//         #product {
-//             .card-product {
-//                 max-width: 260px!important;
-
-//                 .card-image {
-//                     height: 166px;
-//                 }
-
-//                 .card-title {
-//                     padding-top: 5px!important;
-//                 }
-
-//                 .card-body {
-//                     .evaluate img {
-//                         width: 20px;
-//                         height: 20px;
-//                     }
-//                 }
-
-//                 .card-footer {
-//                     .price {
-//                         font-size: 20px!important;
-//                     }
-//                 }
-//             }
-//         }
-
-//         #front-view {
-//             .read-more {
-//                 max-width: 33rem!important;
-//                 max-height: 15rem!important;
-//                 bottom: 30px!important;
-//                 right: 100px!important;
-//                 .card-body {
-//                     padding: 20px!important;
-//                     .card-title {
-//                         font-size: 20px!important;
-//                     }
-        
-//                     .card-text {
-//                         font-size: 15px!important;
-//                         line-height: 19px!important;
-//                     }
-//                 }
-    
-//                 i {
-//                     margin-top: -15px!important;
-//                 }
-//             }
-//         }
-
-//         #partner_slider {
-//             padding: 0 70px!important;
-//         }
-//      }
-//  }
-
-// @media screen and (max-width:768px) {
-//     #navbar {
-//         #menu-content-mobi {
-//             width: 40%;
-//         }
-        
-//         .logo {
-//             margin-right: -6rem;
-//         }
-//     }
-
-//     #main-content {
-//         #benefit {
-//             .benefit-item {
-//                 img {
-//                     width: 70px!important;
-//                 }
-    
-//                 .card-text {
-//                     font-size: 18px;
-//                 }
-//             }
-//         }
-
-//     }
-
-//     #footer {
-//         height: auto;
-//         #footer_content {
-//             height: auto;
-//             #footer_social {
-//                 line-height: 70px;
-    
-//                 .youtu {
-//                    height: 100%;
-//                 }
-
-//                .ins, .twit, .fb {
-//                     width: 30px;
-//                     height: 30px;
-//                 }
-
-//             }
-    
-//             .hr {
-//                 height: 2px!important;
-//             }
-    
-//             #more_info {
-//                 padding-top: 25px;
-    
-//                 .title {
-//                     font-weight: 900;
-//                     font-size: 26px;
-//                     line-height: 40px;
-//                 }
-    
-//                 .info {
-//                     font-size: 20px;
-//                     line-height: 22px;
-//                 }
-    
-//                 .info-footer {
-//                     h4 {
-//                         font-size: 22px!important;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-//  }
-
-//  @media screen and (max-width:667px) {
-//     #main-content {
-//         #product {
-//             .topic {
-//                 padding:0 30px!important;
-//             }
-//         }
-//     }
-
-//     #benefit {
-//         padding: 0 20px!important;
-//         .card-group {
-//             margin: 10px 5px;
-//         }
-
-//         .benefit-item {
-//             img {
-//                 width: 68px;
-//             }
-
-//             .card-title {
-//                 font-size: 18px!important;
-//                 font-weight: 600!important;
-//                 line-height: 24px!important;
-//             }
-
-//             .card-text {
-//                 font-size: 13px!important;
-//                 line-height: 17px!important;
-//             }
-//         }
-//     }
-//  }
-
-//  @media screen and (max-width:600px) {
-//     #main-content {
-//         #product {
-//             .topic {
-//                 padding:0 20px;
-//             }
-//             .product-item {
-//                 padding: 5px 0;
-//             }
-
-//             .category-title {
-//                 font-size: 18px;
-//                 line-height: 24px;
-//             }
-
-//             .card-title {
-//                 a {
-//                     font-size: 18px!important;
-//                 }
-//             }
-
-//             .card-product .card-footer {
-//                 .price {
-//                     font-size: 18px!important;
-//                 }
-//             }
-
-//             .btn-more {
-//                 font-size: 14px;
-//                 width: 112px;
-//                 height: 36px;
-//                 margin: 15px 0;
-//             }
-//         }
-
-//         #partner_slider {
-//             padding: 0 50px!important;
-//         }
-//     }
-
-//     #footer {
-//         height: auto;
-//         #footer_content {
-//             padding: 0 10px;
-//             height: auto;
-//             #footer_social {
-//                 line-height: 40px!important;
-//                 padding: 0 10px;
-    
-//                 .in, .ins, .twit, .fb {
-//                     width: 22px!important;
-//                     height: 22px!important;
-//                 }
-
-//                 .in, .ins, .twit {
-//                     margin-left: 10px!important;
-//                 }
-//             }
-    
-//             .hr {
-//                 height: 1px!important;
-//                 opacity: 1;
-//             }
-    
-//             #more_info {
-//                 padding-top: 0;
-//                 height: 240px;
-    
-//                 .footer-logo img {
-//                     width: 121px;
-//                     height: 121px;
-//                     opacity: 1;
-//                 }
-    
-//                 .title, .info {
-//                     font-family: Segoe UI;
-//                 }
-    
-//                 .title {
-//                     font-weight: 900!important;
-//                     font-size: 20px!important;
-//                     line-height: 33px!important;
-//                     color: #000000!important;
-//                 }
-    
-//                 .info {
-//                     font-weight: normal!important;
-//                     font-size: 13px!important;
-//                     line-height: 16px!important;
-//                 }
-    
-//                 .info-footer {
-//                     padding-top: 30px;
-    
-//                     h4 {
-//                         font-family: Montserrat;
-//                         font-style: normal;
-//                         font-weight: bold;
-//                         font-size: 17px!important;
-//                         line-height: 24px;
-//                         letter-spacing: -0.015em;
-//                         color: #000000;
-//                     }
-//                 }
-//             }
-    
-//             .copyright {
-//                 font-size: 10px;
-//                 line-height: 24px;
-//             }
-    
-//         }
-//     }
-   
-//  }
-
-//  @media screen and (min-width:500px) and (max-width: 600px) {
-//     #navbar {
-//         #menu-content-mobi {
-//             width: 60%;
-//         }
-
-//         .logo {
-//             margin-right: -2rem;
-//         }
-//     }
-
-//     #partner_slider {
-//         padding:0 150px!important;
-//     }
-
-//     #benefit {
-//         padding: 0 70px!important;
-//     }
-//  }
-
-//  @media screen and (max-width: 450px) {
-//      #header {
-//         #navbar {
-//             #menu-content-mobi {
-//                 width: 75%;
-//             }
-    
-//             .logo {
-//                 margin-right: 0;
-//                 img {
-//                     width: 73px;
-//                     height: auto;
-//                 }
-//             }
-//         }
-//      }
-
-//     #main-content #product {
-//         .topic {
-//             padding: 0 10px!important;
-//         }
-
-//         .card-product {
-//             padding: 6px;
-//             .card-image {
-//                 height: 120px;
-//             }
-
-//             .card-body {
-//                 padding: 0 6px;
-//             }
-
-//             .card-footer .prod-cart {
-//                 width: 28px;
-//                 height: 28px;
-//                 padding: 0;
-//                 margin: 0;
-//                 img {
-//                     width: 21px;
-//                     height: 21px;
-//                     margin-top: -2px;
-//                 }
-//             }
-//         }
-//     }
-
-//     #partner_slider {
-//         padding:0 70px!important;
-
-//         #btnLeft {
-//             margin-left: 25px!important;
-//         }
-
-//         #btnRight {
-//             margin-right: 25px!important;
-//         }
-//     }
-
-//     #benefit {
-//         .card-group {
-//             margin: auto!important;
-//         }
-//     }
-//  }

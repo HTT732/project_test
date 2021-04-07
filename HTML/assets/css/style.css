@@ -101,7 +101,8 @@ body a {
       line-height: 35px; }
 
 #main-content {
-  background-color: #F6EAF2; }
+  background-color: #F6EAF2;
+  overflow: hidden; }
   #main-content #search .input-group {
     margin: 17px 0;
     height: 66px; }
@@ -135,7 +136,7 @@ body a {
   #main-content #product {
     font-family: Segoe UI; }
     #main-content #product .full-width {
-      width: 100vw;
+      width: 110vw;
       margin-left: -10vw; }
     #main-content #product .topic {
       margin: 0; }
@@ -326,7 +327,7 @@ body a {
       #main-content #front-view .read-more i {
         margin-bottom: -15px; }
   #main-content #benefit {
-    padding: 30px 70px; }
+    padding-bottom: 30px; }
     #main-content #benefit .benefit-item {
       border-radius: 5px;
       font-family: Roboto;
@@ -353,25 +354,25 @@ body a {
       background: #3FBB53; }
 
 #footer {
-  height: 584px;
+  height: auto;
   background-position: center center;
   background-size: auto 100%; }
+  #footer .custom-contai {
+    padding: 1rem 2.5rem; }
   #footer #partner_slider {
-    height: 148px;
-    padding: 0 100px; }
+    height: 148px; }
     #footer #partner_slider #btnLeft img, #footer #partner_slider #btnRight img {
       width: 35px;
       height: 35px; }
     #footer #partner_slider #btnLeft {
-      margin-left: 40px; }
+      margin-left: -35px; }
     #footer #partner_slider #btnRight {
-      margin-right: 40px; }
+      margin-right: -35px; }
     #footer #partner_slider .owl-carousel {
       height: inherit; }
   #footer #footer_content {
     background: rgba(255, 194, 187, 0.95);
-    height: 436px;
-    padding: 0 60px; }
+    height: 500px; }
     #footer #footer_content #footer_social {
       line-height: 95px;
       padding: 0 10px; }
@@ -395,7 +396,7 @@ body a {
       opacity: 1; }
     #footer #footer_content #more_info {
       padding-top: 54px;
-      height: 290px; }
+      height: 340px; }
       #footer #footer_content #more_info #customer, #footer #footer_content #more_info #aboutus {
         opacity: 0.75 !important; }
       #footer #footer_content #more_info .footer-collapse h4 {
@@ -431,7 +432,19 @@ body a {
 
 @media screen and (max-width: 1366px) {
   #header #navbar #menu .nav-item .is-menu {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  #main-content #benefit .benefit-item img {
+    width: 60px; }
+  #main-content #benefit .benefit-item .card-title {
+    font-size: 20px; }
+  #main-content #benefit .benefit-item .card-text {
+    font-size: 15px; }
+  #main-content #benefit .benefit-item .content {
+    padding-right: 10px; }
+
+  #footer #footer_content #more_info {
+    height: 340px; } }
 @media screen and (max-width: 1200px) {
   #header #navbar #menu .nav-item .is-menu {
     font-size: 16px; }
@@ -480,7 +493,9 @@ body a {
         height: 30px;
         margin-left: -3px; }
     #main-content #search .input-group input[placeholder] {
-      font-size: 18px; } }
+      font-size: 18px; }
+  #main-content #benefit .benefit-item img {
+    width: 50px; } }
 @media screen and (max-width: 768px) {
   #header #navbar .logo img {
     width: 70px;
@@ -505,7 +520,40 @@ body a {
     margin-top: 0 !important; }
     #main-content #product .card-footer .prod-cart img {
       margin-left: -6px !important;
-      margin-top: -8px; } }
+      margin-top: -8px; }
+
+  #main-content #benefit .benefit-item img {
+    width: 60px; }
+
+  #footer #footer_content {
+    height: auto; }
+    #footer #footer_content .copyright {
+      font-size: 12px;
+      line-height: 30px; }
+    #footer #footer_content #footer_social {
+      line-height: 70px; }
+      #footer #footer_content #footer_social .ins, #footer #footer_content #footer_social .twit, #footer #footer_content #footer_social .fb {
+        width: 22px;
+        height: 22px; }
+    #footer #footer_content .hr {
+      height: 2px !important; }
+    #footer #footer_content .hr-width {
+      margin-top: 50px; }
+    #footer #footer_content #more_info {
+      height: auto;
+      padding-top: 25px; }
+      #footer #footer_content #more_info .footer-logo img {
+        width: 121px;
+        height: 121px; }
+      #footer #footer_content #more_info .title {
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 53px; }
+      #footer #footer_content #more_info .info {
+        font-size: 12px;
+        line-height: 22px; }
+      #footer #footer_content #more_info .info-footer h4 {
+        font-size: 16px; } }
 @media screen and (min-width: 768px) and (max-width: 850px) {
   #main-content #product .card-product .card-image {
     height: 160px; } }
@@ -532,7 +580,11 @@ body a {
         height: 25px;
         margin-left: -5px; }
     #main-content #search .input-group input[placeholder] {
-      font-size: 12px; } }
+      font-size: 12px; }
+
+  #footer #partner_slider {
+    width: 70%;
+    margin: auto; } }
 @media screen and (max-width: 420px) {
   #main-content #product .product-item {
     padding: 4px; }
@@ -543,7 +595,35 @@ body a {
       #main-content #product .product-item .card-product .card-title {
         padding-top: 5px !important; }
       #main-content #product .product-item .card-product .card-footer .price {
-        font-size: 20px; } }
+        font-size: 20px; }
+
+  #main-content #benefit .card {
+    margin-bottom: 0; }
+  #main-content #benefit .benefit-item .card-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px; }
+  #main-content #benefit .benefit-item .card-text {
+    font-size: 14px;
+    line-height: 18px; }
+  #main-content #benefit .benefit-item img {
+    width: 50px; }
+
+  #footer {
+    height: auto; }
+    #footer #partner_slider {
+      height: 90px; }
+    #footer #footer_content {
+      height: auto; }
+      #footer #footer_content .copyright {
+        font-size: 10px; }
+      #footer #footer_content #more_info .title {
+        font-size: 20px !important;
+        line-height: 40px; }
+      #footer #footer_content #more_info .info {
+        line-height: 18px; }
+      #footer #footer_content #more_info .info-footer h4 {
+        font-size: 14px; } }
 @media screen and (max-width: 330px) {
   #main-content #product .product-item {
     padding: 2px; }
@@ -551,3 +631,5 @@ body a {
       padding: 5px; }
       #main-content #product .product-item .card-product .card-image {
         height: 100px; } }
+
+/*# sourceMappingURL=style.css.map */

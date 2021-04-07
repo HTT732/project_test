@@ -186,6 +186,7 @@ body {
 
 #main-content {
     background-color: #F6EAF2;
+    overflow: hidden;
 
     #search {
         @mixin width-height($w, $h) {
@@ -238,9 +239,8 @@ body {
         font-family: Segoe UI;
 
         .full-width {
-            width: 100vw;
+            width: 110vw;
             margin-left: -10vw;
-            // left: 50%;
         }
 
         .topic {
@@ -507,7 +507,7 @@ body {
     }
 
     #benefit {
-        padding: 30px 70px;
+        padding-bottom: 30px;
 
         .benefit-item {
             border-radius: 5px;
@@ -552,13 +552,16 @@ body {
 }
 
 #footer {
-    height: 584px;
+    height: auto;
     background-position: center center;
     background-size: auto 100%;
 
+    .custom-contai {
+        padding: 1rem 2.5rem;
+    }
+
     #partner_slider {
         height: 148px;
-        padding: 0 100px;
 
         #btnLeft, #btnRight {
             img {
@@ -568,11 +571,11 @@ body {
         }
 
         #btnLeft {
-            margin-left: 40px;
+            margin-left: -35px;
         }
 
         #btnRight {
-            margin-right: 40px;
+            margin-right: -35px;
         }
 
         .owl-carousel {
@@ -584,8 +587,7 @@ body {
 
     #footer_content {
         background: rgba(255, 194, 187, 0.95);
-        height: 436px;
-        padding: 0 60px;
+        height: 500px;
 
         #footer_social {
             line-height: 95px;
@@ -624,7 +626,7 @@ body {
 
         #more_info {
             padding-top: 54px;
-            height: 290px;
+            height: 340px;
             
             #customer, #aboutus {
                 opacity: 0.75!important;
