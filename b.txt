@@ -1,3 +1,2 @@
 test_reset_revert
-htt moi them
 máster
